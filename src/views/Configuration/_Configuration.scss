@@ -1,0 +1,68 @@
+.configuration {
+  display: flex;
+  .sidebar {
+    text-align: center;
+    width: 400px;
+    background-color: $background-secondary;
+    height: 100vh;
+    overflow: scroll;
+    color: $secondary-light;
+
+    h2 {
+      margin-top: 3rem;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 0.8rem;
+      margin: 4rem 2rem 0 2rem;
+    }
+  }
+
+  .configuration-screen{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    overflow: scroll;
+
+    p {
+      color: $secondary-light;
+    }
+
+    .config {
+      font-size: 1.7rem;
+      margin-bottom: 5px;
+    }
+
+    .screen {
+      margin-top: 0;
+      font-size: 3.5rem;
+    }
+
+    .button {
+      background-color: $primary;
+      margin: 0 2rem 2rem 2rem;
+      color: $secondary-light;
+      font-size: 0.7rem;
+    }
+
+    .configuration-layout {
+      position: relative;
+      width: 900px;
+      margin: 0 auto 5rem auto;
+
+      .layout {
+        cursor: pointer;
+      }
+      
+      .grid-item {
+        background-color: $secondary-light;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+      .grid-item :hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      }
+    }
+  }
+}
