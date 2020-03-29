@@ -1,0 +1,12 @@
+@import './views/index.scss';
+
+@font-face {
+  font-family: 'Cunia';
+  src: url('./assets/fonts/Cunia.ttf');
+}
+
+body {
+  background-color: $background;
+  margin: 0;
+  font-family: 'Cunia';
+}
